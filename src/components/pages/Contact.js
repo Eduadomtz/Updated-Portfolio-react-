@@ -1,22 +1,37 @@
-import React from 'react';
-
 export default function Contact() {
   return (
-    <div className="p-4">
-      <h1>Contact Me</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
+    <section className="flex h-screen">
+      <div className="p-10 w-full text-base text-gray-600 font-bold content-center">
+        <h2 className="p-2">EDUARDO MARTÍNEZ</h2>
+        <h3 className="p-2">CALL ME: 555.555.5555 </h3>
+        <h3 className="p-2">EMAIL ME: eduardo31794@gmail.com</h3>
+      </div>
+      <div className="p-10 w-full justify-items-center">
+        <div>
+          <span className="text-base text-gray-600 font-bold">FULL NAME</span>
+          <input className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg"
+            type="text" placeholder="" />
+        </div>
+        <div className="mt-8">
+          <span className="text-base text-gray-600 font-bold">EMAIL</span>
+          <input className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg"
+            type="text">
+          </input>
+          <div className="mt-8">
+            <span className="text-base text-gray-600 font-bold">MESSAGE</span>
+            <textarea
+              className="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg"></textarea>
+          </div>
+          <div className="mt-8">
+            <button
+              className="text-base font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full">
+              SEND MESSAGE
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
   );
 }
