@@ -1,7 +1,7 @@
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <ul className="flex justify-end bg-black text-white">
+        <ul className="flex justify-end bg-black text-white text-2xl">
             <li className="p-4">
                 <a
                     href="#about"

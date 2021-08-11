@@ -5,7 +5,7 @@ import { FaRocket } from "react-icons/fa";
 
 export default function Portfolio() {
   return (
-    <main className="container mx-auto">
+    <main className="container mx-auto text-gray-600">
       <div className="grid grid-cols-3 gap-4">
         <section className="max-w-sm rounded overflow-hidden shadow-lg p-4">
           <img src="/Pawbook.png" alt="" className="w-full" />
