@@ -11,7 +11,7 @@ export default function Footer() {
                     href="https://github.com/Eduadomtz?tab=repositories"
                     className="p-2"
 
-                ><FaGithub fa-2x />
+                ><FaGithub />
                 </a>
                 <a
                     href="https://www.youtube.com/channel/UCJ_GkzUILVKhhUKrZMbqHNA"
