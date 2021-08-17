@@ -72,7 +72,7 @@ export default function Portfolio() {
               ><FaGithub />
               </a>
               <a
-                href="https://github.com/Eduadomtz/Work-Day-Scheduler/settings/pages"
+                href="https://eduadomtz.github.io/Work-Day-Scheduler/"
                 className="p-2"
               ><FaRocket /></a>
             </ul>
