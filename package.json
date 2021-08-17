@@ -16,7 +16,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm craco build",
+    "predeploy": "craco build",
     "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
