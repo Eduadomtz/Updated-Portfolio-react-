@@ -4,21 +4,21 @@
 A Portfolio made with react where all my projects are display.
 
 ## Installation
-This project has been deployed to GitHub. 
+This project has been deployed to GitHub. https://github.com/Eduadomtz/Updated-Portfolio-react-
 
-To get this project up and running, you can follow the deployment link. https://github.com/Eduadomtz/Updated-Portfolio-react-
+To get this project up and running, you can follow the deployment link. https://eduadomtz.github.io/Updated-Portfolio-react-/#about
 
 ## Usage
 It has 3 parts: About me, portfolio and contact me
 
 When the user enters my site, the firts thing is going to find is the "About me" section
-<img src="./Images/About_me.png">
+<img src="./">
 
 Then, the user can see all of my projects displayed in the "Portfolio" section
-<img src="./Images/Portfolio.png">
+<img src="./">
 
 Finally if the user wants to contact me he can find my number, email and GitHub and Linkedin profiles. They also have the possibility to send me a message from the site
-<img src="./Images/Contact_me.png">
+<img src="./">
 
 ## Features
 - HTML
