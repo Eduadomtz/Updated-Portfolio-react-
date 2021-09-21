@@ -16,6 +16,9 @@ export default function Portfolio() {
             <p>
               Pawbook is an app created to help stray animals find a home or to gathered food donatios for the manteinance of animal shelters
             </p>
+            <p>
+              Technologies: HTML, CSS, JS, NODEJS, EXPRESS, MYSQL, ORM, MVC, Tailwind, Heroku
+            </p>
             <ul className="flex justify-center content-end">
               <a
                 href="https://github.com/stamm2911/Pawbook-app"
@@ -39,6 +42,9 @@ export default function Portfolio() {
             </h2>
             <p>
               Tired of the routine? Eager for an adventure? Then you are in the right place! Welcome vagabond to the Vagabundos App, the App that will help you search the flights and hotels that best suit you.
+            </p>
+            <p>
+              Technologies: HTML, Foundation CSS, Javascript
             </p>
             <ul className="flex justify-center">
               <a
@@ -64,6 +70,9 @@ export default function Portfolio() {
             <p>
               A simple calendar application that allows a user to save events for each hour.
             </p>
+            <p>
+              Technologies: HTML, CSS, Javascript, Moment.js
+            </p>
             <ul className="flex justify-center">
               <a
                 href="https://github.com/Eduadomtz/Work-Day-Scheduler"
@@ -87,6 +96,9 @@ export default function Portfolio() {
             </h2>
             <p>
               With this App you will be able to view create and track daily workouts (track the name, type, weight, sets, reps, and duration of exercise). Also you will be able log multiple exercises in a workout on a given day.
+            </p>
+            <p>
+              Technologies: HTML, CSS, JS, MongoDB
             </p>
             <ul className="flex justify-center">
               <a
@@ -112,6 +124,9 @@ export default function Portfolio() {
             <p>
               The user is able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
             </p>
+            <p>
+              Technologies: HTML, CSS, JS, MongoDB, Manifest
+            </p>
             <ul className="flex justify-center">
               <a
                 href="https://github.com/Eduadomtz/Online-Offline-Budget-Trackers"
@@ -135,6 +150,9 @@ export default function Portfolio() {
             </h2>
             <p>
               Need for a secure password? Try our App and create the password with the elements you want!
+            </p>
+            <p>
+              Technologies: HTML, CSS, JS
             </p>
             <ul className="flex justify-center">
               <a

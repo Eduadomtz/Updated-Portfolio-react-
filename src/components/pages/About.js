@@ -9,8 +9,20 @@ export default function About() {
       <section className="p-8  items-center">
         <h1 className="pb-16 text-6xl">About Me</h1>
         <p className="text-2xl">
-          Welcome to my space! I love history and teaching. I have a degree in History. I won a international scholarship to study my master at Spain in Research on Teaching and Learning in the Social Sciences. I have taught at all educational levels. I have received awards as the best teacher in my school. I have an educational project on Youtube in which I talk about history. My channel is called "Crónicas en vilo" if you want to take a look at it. Nowadays I’m enroll in a Bootcamp to become a Full Stack Web Developer.
+          Enthusiastic, recently graduated, Full Stack Web Developer with a background in history and teaching. A critical thinker who never ceases to expand his own knowledge and ideas about his personal and professional interests.
+
+          Proven skills in the development of teamwork apps, problem solving, communication and learning new subjects and technologies. Certificate from Tecnológico de Monterrey as a Full Stack Web Developer.
+
+          As a Historian I won a international scholarship to study my master at Spain in Research on Teaching and Learning in the Social Sciences. As teacher I have taught at all educational levels. I have received awards as the best teacher in my school. I have an educational project on Youtube in which I talk about history. My channel is called "Crónicas en vilo" if you want to take a look at it.
         </p>
+
+      </section>
+      <section className="p-8  items-center">
+        <p className="text-2xl">Skills: Browser Based Technologies: HTML, CSS, JavaScript, jQuery, Responsive Design Bootstrap, Handlebars, Local Storage, Session Storage, IndexedDB, React.js.
+          Databases: MySQL, MongoDB.
+          Server Side Development: Node.js, Express, User Authentication, Progressive Web Applications, MERN Stack.
+          Deployment/Command-Line Fundamentals: Heroku, Git, GitHub Pages.
+          Quality Assurance: Unit Testing, Functional Testing, Linting, Continuous Integration.</p>
       </section>
     </div>
 
