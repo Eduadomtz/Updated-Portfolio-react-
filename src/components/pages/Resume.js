@@ -33,7 +33,7 @@ export default function Resume() {
         <button
           className="text-base font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-40"
           type="button"
-        ><a href='https://drive.google.com/file/d/1GA7lxnD4YlV9cSdFv4-TtN-GqVtNu0iF/view?usp=sharing' target="_blank" rel="noreferrer" >Download My Resume</a></button>
+        ><a href='https://drive.google.com/file/d/1t01Alijv7Ix9RMZyFEVx4L_FmlwOMeyE/view?usp=sharing' target="_blank" rel="noreferrer" >Download My Resume</a></button>
 
       </section>
 
