@@ -1,14 +1,12 @@
 import { FaGithub } from "react-icons/fa";
 import { FaRocket } from "react-icons/fa";
 
-
-
 export default function Portfolio() {
   return (
     <main className="container mx-auto text-gray-600">
       <div className="grid grid-cols-3 gap-4">
         <section className="max-w-sm rounded overflow-hidden shadow-lg p-4">
-          <img src="/Pawbook.png" alt="" className="w-full" />
+          <img src="" alt="" className="w-full" />
           <div className="px-6 py-4">
             <h2 className="font-bold text-purple-500 text-xl mb-2">
               Pawbook App
