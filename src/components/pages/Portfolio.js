@@ -2,6 +2,11 @@ import { FaGithub } from "react-icons/fa";
 import { FaRocket } from "react-icons/fa";
 import vagabundos from '../img/VagabundosApp.png'
 import pawBook from '../img/Pawbook.png'
+import workDayScheduler from '../img/Work_Day_Scheduler.png'
+import workOutTracker from '../img/Workout-Tracker.png'
+import budgetTracker from '../img/Budget-Tracker.png'
+import passwordGenerator from '../img/Password-Generator.png'
+
 
 
 export default function Portfolio() {
@@ -63,7 +68,7 @@ export default function Portfolio() {
         </section>
 
         <section className="max-w-sm rounded overflow-hidden shadow-lg p-4">
-          <img src="/Work_Day_Scheduler.png" alt="" className="w-full" />
+          <img src={workDayScheduler} alt="" className="w-full" />
           <div className="px-6 py-4">
             <h2 className="font-bold text-purple-500 text-xl mb-2">
               Work Day Scheduler
@@ -90,7 +95,7 @@ export default function Portfolio() {
         </section>
 
         <section className="max-w-sm rounded overflow-hidden shadow-lg p-4">
-          <img src="/Workout-Tracker.png" alt="" className="w-full" />
+          <img src={workOutTracker} alt="" className="w-full" />
           <div className="px-6 py-4">
             <h2 className="font-bold text-purple-500 text-xl mb-2">
               Worktout Tracker
@@ -117,7 +122,7 @@ export default function Portfolio() {
         </section>
 
         <section className="max-w-sm rounded overflow-hidden shadow-lg p-4">
-          <img src="/Budget-Tracker.png" alt="" className="w-full" />
+          <img src={budgetTracker} alt="" className="w-full" />
           <div className="px-6 py-4">
             <h2 className="font-bold text-purple-500 text-xl mb-2">
               Budget Tracker
@@ -144,7 +149,7 @@ export default function Portfolio() {
         </section>
 
         <section className="max-w-sm rounded overflow-hidden shadow-lg p-4">
-          <img src="/Password Generator.png" alt="" className="w-full" />
+          <img src={passwordGenerator} alt="" className="w-full" />
           <div className="px-6 py-4">
             <h2 className="font-bold text-purple-500 text-xl mb-2">
               Password Generator
