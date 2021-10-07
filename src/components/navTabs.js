@@ -1,49 +1,50 @@
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <ul className="flex justify-end bg-black text-white text-2xl">
-            <li className="p-4">
-                <a
-                    href="#about"
+        <div className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-black mb-3 text-white ">
+            <a className="text-2xl pl-14 italic">
+                <a href="#about"
                     onClick={() => handlePageChange('About')}
 
-                    className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-                >
-                    About
+                    className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
+                    Eduardo Martínez
                 </a>
-            </li>
-            <li className="p-4">
-                <a
-                    href="#portfolio"
-                    onClick={() => handlePageChange('Portfolio')}
+            </a>
+            <ul className="flex justify-end text-2xl pr-5">
+                <li className="p-4">
+                    <a
+                        href="#portfolio"
+                        onClick={() => handlePageChange('Portfolio')}
 
-                    className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-                >
-                    Portfolio
-                </a>
-            </li>
-            <li className="p-4">
-                <a
-                    href="#contact"
-                    onClick={() => handlePageChange('Contact')}
+                        className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+                    >
+                        Portfolio
+                    </a>
+                </li>
+                <li className="p-4">
+                    <a
+                        href="#contact"
+                        onClick={() => handlePageChange('Contact')}
 
-                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-                >
-                    Contact
-                </a>
-            </li>
-            <li className="p-4">
-                <a
-                    href="#Resume"
-                    onClick={() => handlePageChange('Resume')}
+                        className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                    >
+                        Contact
+                    </a>
+                </li>
+                <li className="p-4">
+                    <a
+                        href="#Resume"
+                        onClick={() => handlePageChange('Resume')}
 
-                    className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-                >
-                    Resume
-                </a>
-            </li>
+                        className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                    >
+                        Resume
+                    </a>
+                </li>
 
-        </ul>
+            </ul>
+        </div>
+
     );
 }
 

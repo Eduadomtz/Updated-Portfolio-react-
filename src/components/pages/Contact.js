@@ -3,7 +3,6 @@ export default function Contact() {
     <section className="flex h-screen items-center justify-items-center">
       <div className="p-10 w-full text-xl text-gray-600 font-bold">
         <h2 className="p-2">EDUARDO MARTÍNEZ</h2>
-        <h3 className="p-2">CALL ME: 555.555.5555 </h3>
         <h3 className="p-2">EMAIL ME: eduardo31794@gmail.com</h3>
       </div>
       <div className="p-10 w-full justify-items-center">
