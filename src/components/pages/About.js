@@ -1,10 +1,11 @@
 import React from 'react';
+import photo from '../img/foto.JPG'
 
 export default function About() {
   return (
     <div className="flex items-center h-screen text-gray-600">
       <section>
-        <img src="/foto.JPG" alt="Eduardo Martínez" className="w-full" />
+        <img src={photo} alt="Eduardo Martínez" className="w-full" />
       </section>
       <section className="p-8  items-center">
         <h1 className="pb-16 text-6xl">About Me</h1>
@@ -16,13 +17,6 @@ export default function About() {
           As a Historian I won a international scholarship to study my master at Spain in Research on Teaching and Learning in the Social Sciences. As teacher I have taught at all educational levels. I have received awards as the best teacher in my school. I have an educational project on Youtube in which I talk about history. My channel is called "Crónicas en vilo" if you want to take a look at it.
         </p>
 
-      </section>
-      <section className="p-8  items-center">
-        <p className="text-2xl">Skills: Browser Based Technologies: HTML, CSS, JavaScript, jQuery, Responsive Design Bootstrap, Handlebars, Local Storage, Session Storage, IndexedDB, React.js.
-          Databases: MySQL, MongoDB.
-          Server Side Development: Node.js, Express, User Authentication, Progressive Web Applications, MERN Stack.
-          Deployment/Command-Line Fundamentals: Heroku, Git, GitHub Pages.
-          Quality Assurance: Unit Testing, Functional Testing, Linting, Continuous Integration.</p>
       </section>
     </div>
 
