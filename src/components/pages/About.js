@@ -4,12 +4,12 @@ import photo from '../img/foto.JPG'
 export default function About() {
   return (
     <div className="flex items-center h-screen text-gray-600">
-      <section>
+      <section className="pl-8  items-center">
         <img src={photo} alt="Eduardo Martínez" className="w-full" />
       </section>
       <section className="p-8  items-center">
-        <h1 className="pb-16 text-6xl">About Me</h1>
-        <p className="text-2xl">
+        <h1 className="pb-16 text-6xl text-center">About Me</h1>
+        <p className="text-2xl text-justify">
           Enthusiastic, recently graduated, Full Stack Web Developer with a background in history and teaching. A critical thinker who never ceases to expand his own knowledge and ideas about his personal and professional interests.
 
           Proven skills in the development of teamwork apps, problem solving, communication and learning new subjects and technologies. Certificate from Tecnológico de Monterrey as a Full Stack Web Developer.
