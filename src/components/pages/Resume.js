@@ -4,7 +4,7 @@ export default function Resume() {
   return (
     <div className="p-4 h-screen text-gray-600 text-3xl">
       <h1>Resume</h1>
-      <section className="flex">Education
+      <section className="flex items-center">Education
         <h2>Full-Stack Web Developer</h2>
         <ul className="list-disc">
           <li>HTML</li>

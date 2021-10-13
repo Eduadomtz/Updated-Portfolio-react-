@@ -33,10 +33,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 </li>
                 <li className="p-4">
                     <a
-                        href="#Resume"
-                        onClick={() => handlePageChange('Resume')}
-
-                        className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                        href="https://drive.google.com/file/d/1t01Alijv7Ix9RMZyFEVx4L_FmlwOMeyE/view?usp=sharing"
                     >
                         Resume
                     </a>
